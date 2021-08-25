@@ -1,8 +1,9 @@
-import Link from "next/link";
-export default function Home() {
+import React from "react";
+
+const About = () => {
   return (
     <div>
-      <h1>HomePage</h1>
+      <h1>About</h1>
       <p>
         lorem The little golden key, and when she went on talking: `Dear, dear!
         The first question of course was, how to begin.' For, you see, so many
@@ -47,9 +48,8 @@ export default function Home() {
         than ever,' thought the poor child, `for I never was so small as this
         before, never!
       </p>
-      <Link href="/ninjas">
-        <a>See Ninja Listing</a>
-      </Link>
     </div>
   );
-}
+};
+
+export default About;
